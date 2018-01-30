@@ -146,6 +146,7 @@ objects:
     resources:
       requests:
         storage: ${VOLUME_CAPACITY}
+    storageClassName: gluster-container
 parameters:
 - displayName: Sonatype Nexus service name
   name: SERVICE_NAME
